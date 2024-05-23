@@ -474,7 +474,7 @@ class Answer
 }
 */
 
-// Мое решение
+/* //Мое решение
 
 int [,] Create2DArray(int row, int collumn)
 {
@@ -513,8 +513,6 @@ int FindMaxRowSum(int [,] array2D)
     return indexMaxRow;
 }
 
-
-
 Console.Write("Введите количество строк двумерного массива:");
 int arrayRow = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов двумерного массива:");
@@ -523,5 +521,4 @@ int [,] array2DHW3 = Create2DArray(arrayRow,arrayCollumns);
 Show2DArray(array2DHW3);
 int result = FindMaxRowSum(array2DHW3);
 Console.Write($"Строка с максимальной суммой элементов: {result}");
-
-
+*/
